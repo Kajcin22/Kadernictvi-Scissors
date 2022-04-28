@@ -1,0 +1,49 @@
+/*
+Bootstrap 5 breakpointy:
+X-Small							None	<576px
+Small								sm		≥576px
+Medium							md		≥768px
+Large								lg		≥992px
+Extra large					xl		≥1200px
+Extra extra large		xxl		≥1400px
+
+Barvy
+růžová: #c5308a
+světle šedá: #f0f0f0
+*/
+
+/* --- pod tuto čáru piš svoje CSS --- */
+body {
+  font-family: 'Lora', serif;
+}
+
+h1,
+h2,
+h3 {
+  font-style: italic;
+  font-weight: normal;
+}
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  color: #c5308a;
+}
+
+.bg-pink {
+  background-color: #c5308a;
+}
+
+.border-dotted--pink {
+  border-color: #c5308a;
+  border-style: dotted;
+}
+
+.filter-bw {
+  filter: grayscale(100%);
+}
+
+.filter-bw:hover {
+  filter: grayscale(0%);
+}
